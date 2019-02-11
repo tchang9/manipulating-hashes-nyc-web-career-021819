@@ -8,6 +8,11 @@ def second_challenge
 
   #code your solution here!
 
-  
+  solution = []
 
+  groceries.values.each do |item|
+    solution += item
+  end
+
+  solution
 end
